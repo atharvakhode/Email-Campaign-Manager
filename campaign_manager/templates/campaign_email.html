@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ campaign.subject }}</title>
+</head>
+<body>
+    <h1>{{ campaign.subject }}</h1>
+    <p>{{ campaign.preview_text }}</p>
+    <p>Hi {{ subscriber.first_name }},</p>
+    <p>This is the sample email</p>
+    <h2><a href="{{ campaign.article_url }}">{{ campaign.article_url }}</a></h2>
+    <p>{{ campaign.html_content }}</p>
+    <p>Thank you for being a subscriber!</p>
+    <p>Best regards,</p>
+    <p>Your Email Campaign Team</p>
+</body>
+</html>
